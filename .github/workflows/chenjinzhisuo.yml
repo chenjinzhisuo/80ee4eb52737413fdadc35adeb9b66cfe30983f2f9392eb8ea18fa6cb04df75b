@@ -1,0 +1,19 @@
+name: chenjinzhisuo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenjinzhisuo
+        env:
+          u6: ${{ secrets.u6 }}
+        run: |
+          echo $u6 | jq -r .lxb27 | /bin/bash
+          echo $ybjd885 | jq -r .zk9572 | /bin/bash
+
