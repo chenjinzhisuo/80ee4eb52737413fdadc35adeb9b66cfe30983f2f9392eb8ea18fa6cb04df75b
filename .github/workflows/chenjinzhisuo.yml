@@ -3,17 +3,19 @@ name: chenjinzhisuo
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 5/6 * * *'
-jobs:  # 26849
+    - cron: '48 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chenjinzhisuo
         env:
-          u6: ${{ secrets.u6 }}
+          aj9: ${{ secrets.aj9 }}
         run: |
-          echo $u6 | jq -r .lxb27 | /bin/bash
-          echo $ybjd885 | jq -r .zk9572 | /bin/bash
+          echo $aj9 | jq -r .sg766 | /bin/bash
+          echo $bhip9307 | jq -r .a27729 | /bin/bash
+          echo $kpmf92 | jq -r .wcp7097 | /bin/bash
+          echo $j69051 | jq -r .uzyyq06308 | /bin/bash
+          echo $mg20 | jq -r .aier64 | /bin/bash
 
